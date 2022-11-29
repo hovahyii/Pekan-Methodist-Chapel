@@ -53,7 +53,7 @@ Your browser does not support the audio element.
         <br/><br/> 与 <Link href="http://www.methodist.org.my/%E5%8D%97%E9%92%9F/%E4%BA%BA%E7%89%A9%E4%B8%93%E8%AE%BF/%E4%BB%A5%E6%AD%8C%E5%B8%83%E9%81%93%E2%80%94%E2%80%94%E5%BC%A0%E6%B1%89%E6%9E%97%E7%89%A7%E5%B8%88/" target="_blank">张汉林牧师</Link> 一起共度 美好的圣诞夜。
         <br/><br/>当晚也有聚餐。
         <br/><br/>欲知更多详情，请联络：<br/>
-        <Link href="http://wa.me/60148014680" target="_blank">伍伟伦牧师</Link>（014-8014680） <br/>
+        <Link href="http://wa.me/60149014680" target="_blank">伍伟伦牧师</Link>（014-9014680） <br/>
         <Link href="http://wa.me/60138265093" target="_blank">Denny</Link>（013-8265093） <br/>
         <Link href="http://wa.me/60198253796" target="_blank">Leonard</Link>（019-8253796） <br/>
         <br/>欲出席者，<Link href="https://forms.gle/2W8RnFUoGiQHPmCy6" target="_blank">请点击报名</Link>
