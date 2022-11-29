@@ -9,13 +9,15 @@ export default function Home() {
   const elemCard = document.querySelector("div.card");
   const elemClickIcon = document.querySelector("span.click-icon");
   const elemSocialMedia = document.querySelector("footer.footer");
+  const elemAudio = document.getElementById('a1');
 
 
   elemCard.addEventListener("click", function () {
     elemCard.classList.toggle("is-opened");
     elemClickIcon.classList.toggle("is-hidden");
     elemSocialMedia.classList.toggle("is-opened");
-
+    elemAudio.play();
+    elemAudio.volume = 0.2;
   });
 
 
@@ -23,8 +25,8 @@ export default function Home() {
 
   return (
 <div>
-<audio controls autoPlay hidden loop>
-  <source src="horse.mp3" type="audio/mpeg"/>
+<audio id="a1" controls autoPlay hidden loop>
+  <source src="/silent_night.mp3" type="audio/mpeg"/>
 Your browser does not support the audio element.
 </audio>
   <h1 className="title">2022 北根布道所圣诞庆典</h1>
