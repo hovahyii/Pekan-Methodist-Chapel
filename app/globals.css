@@ -173,6 +173,7 @@ body {
   -ms-transform: rotateY(-20deg);
   -o-transform: rotateY(-20deg);
   transform: rotateY(-20deg);
+  z-index: 1;
 }
 
 
