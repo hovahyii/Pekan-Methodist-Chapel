@@ -14,7 +14,7 @@ export default function Footer() {
         <Link href="https://www.instagram.com/pekan_methodist_chapel/" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="text-3xl hover:underline underline-offset-4" />
         </Link>
-        <Link href="https://www.instagram.com/pekan_methodist_chapel/" target="_blank" rel="noopener noreferrer">
+        <Link href="https://pekan-christian-fellowship.vercel.app/" target="_blank" rel="noopener noreferrer">
         <Image src="/cf.webp" alt="Hero" className="object-cover w-full h-full" width={18} height={16} />
         </Link>
       </nav>
