@@ -16,7 +16,7 @@ export default function Footer() {
         <Link href="https://www.instagram.com/pekan_methodist_chapel/" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="text-3xl hover:underline underline-offset-4" />
         </Link>
-        <Link href="hhttps://www.facebook.com/people/Pekan-Methodist-Chapel-%E5%8C%97%E6%A0%B9%E5%8D%AB%E7%90%86%E5%B8%83%E9%81%93%E6%89%80/100085909725418/" target="_blank" rel="noopener noreferrer">
+        <Link href="https://www.facebook.com/people/Pekan-Methodist-Chapel-%E5%8C%97%E6%A0%B9%E5%8D%AB%E7%90%86%E5%B8%83%E9%81%93%E6%89%80/100085909725418/" target="_blank" rel="noopener noreferrer">
           <FaFacebook  className="text-3xl hover:underline underline-offset-4" />
         </Link>
         <Link href="https://github.com/hovahyii/Pekan-Methodist-Chapel" target="_blank" rel="noopener noreferrer">
