@@ -2,6 +2,7 @@ import React from 'react';
 import { FaInstagram } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image';
+import { FaGithub } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -13,6 +14,9 @@ export default function Footer() {
       <nav className="flex gap-4 sm:gap-6">
         <Link href="https://www.instagram.com/pekan_methodist_chapel/" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="text-3xl hover:underline underline-offset-4" />
+        </Link>
+        <Link href="https://github.com/hovahyii/Pekan-Methodist-Chapel" target="_blank" rel="noopener noreferrer">
+          <FaGithub  className="text-3xl hover:underline underline-offset-4" />
         </Link>
         <Link href="https://pekan-christian-fellowship.vercel.app/" target="_blank" rel="noopener noreferrer">
         <Image src="/cf.webp" alt="Hero" className="object-cover w-full h-full" width={18} height={16} />
