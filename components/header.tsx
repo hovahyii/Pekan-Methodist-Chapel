@@ -27,8 +27,8 @@ export default function Header() {
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#routine">
             事奉人员表
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="https://pekan-christian-fellowship.vercel.app/">
-           Pekan CF
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="https://pekan-christian-community.vercel.app/">
+           大专小组（英）
           </Link>
         </nav>
         <Button className="ml-auto h-10 text-sm px-4 lg:hidden" onClick={toggleModal}>奉献</Button>
