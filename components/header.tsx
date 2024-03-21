@@ -28,7 +28,7 @@ export default function Header() {
             事奉人员表
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="https://pekan-christian-community.vercel.app/">
-           大专小组（英）
+           大专（英）
           </Link>
         </nav>
         <Button className="ml-auto h-10 text-sm px-4 lg:hidden" onClick={toggleModal}>奉献</Button>
@@ -38,7 +38,7 @@ export default function Header() {
         <Link href="#service" passHref className="text-sm font-medium hover:underline">崇拜时间</Link>
         <Link href="#cellgroup" passHref className="text-sm font-medium hover:underline">小组聚会</Link>
         <Link href="#routine" passHref className="text-sm font-medium hover:underline">事奉人员表</Link>
-        <Link href="https://pekan-christian-fellowship.vercel.app/" passHref className="text-sm font-medium hover:underline">Pekan CF</Link>
+        <Link href="https://pekan-christian-community.vercel.app/" passHref className="text-sm font-medium hover:underline">大专（英）</Link>
       </nav>
 
       {/* Modal */}
