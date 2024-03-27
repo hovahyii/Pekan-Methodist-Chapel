@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center justify-between px-4 md:px-6 border-t">
       <div>
         <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 北根卫理布道所。荣耀归于神。</p>
-        <p className="text-xs text-gray-500 dark:text-gray-400">Made and sponsored by <Link href="https://www.buymeacoffee.com/hovahyii" className="text-orange-500" target="_blank">Hovah Yii</Link></p>
+        <p className="text-xs text-gray-500 dark:text-gray-400">Made and sponsored by <Link href="https://hovahyii.vercel.app" className="text-orange-500" target="_blank">Hovah Yii</Link></p>
       </div>
       <nav className="flex gap-4 sm:gap-6">
         <Link href="https://www.instagram.com/pekan_methodist_chapel/" target="_blank" rel="noopener noreferrer">
