@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 export default function HeroBanner() {
 
     const [currentImage, setCurrentImage] = useState(0);
-    const images = ['/group-photo1.jpg', '/group-photo2.jpg', '/group-photo3.jpg'];
+    const images = ['/group-photo1.jpg', '/group-photo2.jpg', '/group-photo3.jpg', '/group-photo4.heic'];
     useEffect(() => {
         const interval = setInterval(() => {
           setCurrentImage((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
