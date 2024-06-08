@@ -18,10 +18,10 @@ const MemoryCard: React.FC<MemoryCardProps> = ({ memory }) => {
   const defaultProfileImage = '/logo.jpg';
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 mb-4">
+    <div className="bg-white rounded-lg shadow-md p-4 mb-4 dark:text-black">
       <div className="p-4 flex-grow">
         <div className="flex items-center mb-2">
-          <h2 className="text-lg font-semibold">To: {recipient_name}</h2>
+          <h2 className="text-lg font-semibold ">To: {recipient_name}</h2>
         </div>
         <p className="whitespace-pre-line mb-4">{message}</p>
 
