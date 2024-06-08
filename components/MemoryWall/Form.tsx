@@ -86,20 +86,23 @@ const MemoryForm: React.FC<MemoryFormProps> = ({ onClose }) => {
       style={customStyles}
       contentLabel="Memory Form"
     >
-      <h1><strong>Submit a Memory</strong></h1>
-      <form>
+      <h1 className='dark:text-black mb-4'><strong>Submit a Memory 📮</strong></h1>
+      <form className="dark:text-black">
         <div className="mb-3">
           <label>Recipient Name</label>
           <input
             type="text"
             value={recipientName}
+            placeholder='Must fill in'
             onChange={(e) => setRecipientName(e.target.value)}
             style={{ backgroundColor: 'white', padding: '10px', borderRadius: '5px', width: '100%' }}
           />
         </div>
         <div className="mb-3">
           <label>Your Name</label>
+         
           <input
+           placeholder='Just write Anonymous if you are shy'
             type="text"
             value={senderName}
             onChange={(e) => setSenderName(e.target.value)}
@@ -121,6 +124,7 @@ const MemoryForm: React.FC<MemoryFormProps> = ({ onClose }) => {
             ) : (
               <div className="text-gray-500">
                 <FiUpload size="24px" className="mb-2" style={{ backgroundColor: 'white' }}/>
+                <p>Leave it blank if you do not want to upload any image</p>
                 <p>Drag 'n' drop an image here or click to select an image</p>
               </div>
             )}
@@ -129,6 +133,7 @@ const MemoryForm: React.FC<MemoryFormProps> = ({ onClose }) => {
         <div className="mb-3">
           <label>Message</label>
           <textarea
+            placeholder='Write your message here'
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             style={{ backgroundColor: 'white', padding: '10px', borderRadius: '5px', width: '100%' }}
