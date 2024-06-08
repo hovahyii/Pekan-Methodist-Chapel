@@ -25,7 +25,7 @@ const MemoryCard: React.FC<MemoryCardProps> = ({ memory }) => {
         </div>
         <p className="whitespace-pre-line mb-4">{message}</p>
 
-        <p className="text-gray-500 text-sm font-semibold mb-2">From:</p>
+        <p className="text-gray-800 text-sm font-semibold mb-2">From:</p>
 
         <div className='flex items-center'>
           <Image
@@ -35,7 +35,7 @@ const MemoryCard: React.FC<MemoryCardProps> = ({ memory }) => {
             height={64}
             className="w-16 h-16 rounded-full object-cover flex-initial"
           />
-          <p className="text-gray-500 text-sm ml-4 flex-initial">{sender_name}</p>
+          <p className="text-gray-800 text-sm ml-4 flex-initial">{sender_name}</p>
         </div>
       </div>
     </div>
