@@ -6,6 +6,8 @@ import { openGraphImage } from './shared-metadata'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://pekan-methodist-chapel.vercel.app/'),
+
   title: "北根卫理布道所",
   description: "欢迎加入我们的敬拜和团契，共同领受上帝的爱。 ❤️",
   keywords: ["北根卫理布道所", "教会", "敬拜", "团契", "基督教", "pekan methodist chapel", "pekan chapel", "church in pekan", "pekan methodist", "北根教会"],  // Add your keywords here
