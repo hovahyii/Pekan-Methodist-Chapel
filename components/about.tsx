@@ -6,7 +6,7 @@ export default function About() {
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between px-4">
         <div className="lg:w-1/2">
           <div className="space-y-4">
-            <h1 className="text-3xl lg:text-5xl font-bold tracking-tighter">
+            <h1 className="text-3xl lg:text-5xl font-bold tracking-tighter dark:text-black">
             北根卫理布道所
 
             </h1>
@@ -16,15 +16,15 @@ export default function About() {
           </div>
           <div className="mt-8 space-y-4">
             <div className="grid gap-1">
-              <h2 className="text-2xl lg:text-3xl font-bold tracking-tighter">崇拜时间</h2>
+              <h2 className="text-2xl lg:text-3xl font-bold tracking-tighter dark:text-black">崇拜时间</h2>
               <p className="text-gray-500 dark:text-gray-400">每周日下午 1：30 </p>
             </div>
             <div className="grid gap-1">
-              <h2 className="text-2xl lg:text-3xl font-bold tracking-tighter">地点</h2>
+              <h2 className="text-2xl lg:text-3xl font-bold tracking-tighter dark:text-black">地点</h2>
               <p className="text-gray-500 dark:text-gray-400">No 21 Tingkat Bawah, Jalan Tok Muda Haji Idris, Kampung Pancur, 26600 Pekan, Pahang</p>
             </div>
             <div className="grid gap-1">
-              <h2 className="text-2xl lg:text-3xl font-bold tracking-tighter">堂会负责人</h2>
+              <h2 className="text-2xl lg:text-3xl font-bold tracking-tighter dark:text-black">堂会负责人</h2>
               <p className="text-gray-500 dark:text-gray-400">
                 <Link className="text-orange-500" href="https://whas.me/tNSeh0VXpx">
                 戴光顺传道 
