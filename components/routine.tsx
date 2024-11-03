@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Routine() {
     return (
-      <section id="routine" className="flex flex-col items-center justify-center w-full  py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-800">
+      <section id="routine" className="flex flex-col items-center justify-center w-full mt-10 py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-800">
         <div className="container grid items-center gap-4 px-4 text-center md:px-6 lg:gap-10">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">10月 - 12月事奉人员表</h2>
