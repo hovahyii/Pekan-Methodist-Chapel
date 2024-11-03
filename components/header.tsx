@@ -27,9 +27,9 @@ export default function Header() {
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="/#routine">
             事奉人员表
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/memory-wall">
+          {/* <Link className="text-sm font-medium hover:underline underline-offset-4" href="/memory-wall">
           🖼️ 祝福榜
-          </Link>
+          </Link> */}
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="https://pekan-christian-community.vercel.app/">
            大专（英）
           </Link>
